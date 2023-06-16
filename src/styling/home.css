@@ -1,0 +1,73 @@
+:root {
+    --primaryColor: orange;
+}
+
+.about {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.first_div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first_div .first_text {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+
+.first_text .text {
+    color: var(--primaryColor);
+    font-size: 24px;
+    gap: 10px;
+}
+
+.first_div .second_text {
+    color: white;
+    font-size: 64px;
+}
+
+.first_div .third_text {
+    color: var(--primaryColor);
+    font-size: 18px;
+}
+
+.fourth_text {
+    color: white;
+    max-width: 400px;
+    font-size: 18px;
+}
+
+.first_div .button {
+    cursor: pointer;
+    border: 1px solid var(--primaryColor);
+    color: white;
+    text-align: center;
+    width: 300px;
+    padding: 10px 30px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.first_div .button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.second_div img {
+    width: 500px;
+    height: 500px;
+    aspect-ratio: 16, 9;
+}
+
+.social_icons {
+    height: 400px;
+    width: 100px;
+    position: fixed;
+    right: 0px;
+}

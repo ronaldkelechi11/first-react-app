@@ -1,0 +1,44 @@
+@import '../styling/variables.css';
+/* To import our colors */
+
+.navbar {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar_links a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_links .active {
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+.navbar_links a:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+    color: var(--primaryColor);
+}
+
+.contact {
+    background-color: var(--primaryColor);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.contact:hover {
+    color: white !important;
+}
